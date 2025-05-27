@@ -1,5 +1,7 @@
-
 '''
+Mysql: Dados do Sistema:
+
+
 INSERT INTO clientes (nome, senha, email, telefone, cpf) VALUES
 ('João Silva', 'senha123', 'joao.silva@example.com', '48912345678', '12345678901'),
 ('Maria Oliveira', 'senha456', 'maria.oliveira@example.com', '48987654321', '23456789012'),
