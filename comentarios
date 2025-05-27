@@ -51,25 +51,4 @@ INSERT INTO fornecedores (nome_empresa, email, telefone, produto, transporte, in
 ('Aurivian', 'aurivian@example.com', '48922110099', 'Lunar', 'terrestre:caminhão', '2025-09-01', '2025-04-30'),
 ('Velasca', 'velasca@example.com', '48911009988', 'Brilhante', 'terrestre:caminhão', '2025-10-01', '2025-03-31');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 '''
