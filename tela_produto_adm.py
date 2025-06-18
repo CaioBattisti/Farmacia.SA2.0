@@ -19,7 +19,6 @@ class ProdutoADMApp:
         self.root.configure(background="#e6f2ff")  # Cor de fundo azul clara
         root.resizable(width=False, height=False)  # Impede redimensionamento
 
-        self.criar_menu()      # Cria o menu superior
         self.criar_widgets()   # Cria os campos e botões
 
     # Criação dos widgets (campos de entrada, botões e área de texto)
