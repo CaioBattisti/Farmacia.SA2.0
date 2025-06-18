@@ -22,16 +22,6 @@ class ProdutoADMApp:
         self.criar_menu()      # Cria o menu superior
         self.criar_widgets()   # Cria os campos e botões
 
-    # Criação do menu superior com opções
-    def criar_menu(self):
-        menu_bar = Menu(self.root)
-        menu = Menu(menu_bar, tearoff=0)
-        menu.add_command(label="Funcionários")     # Navegação fictícia
-        menu.add_command(label="Fornecedores")
-        menu.add_command(label="Clientes")
-        menu_bar.add_cascade(label="Menu", menu=menu)
-        self.root.config(menu=menu_bar)
-
     # Criação dos widgets (campos de entrada, botões e área de texto)
     def criar_widgets(self):
         # Labels dos campos a serem exibidos
