@@ -13,18 +13,7 @@ class FornecedorADMApp:
         self.root.configure(background="#e6f2ff")  # Cor de fundo azul claro
         self.root.resizable(width=False, height=False)  # Impede redimensionamento da janela
 
-        self.criar_menu()     # Chama o método para criar o menu superior
         self.criar_widgets()  # Chama o método para criar os campos e botões
-
-    # Método para criar o menu superior com opções de navegação (não estão implementadas ainda)
-    def criar_menu(self):
-        menu_bar = Menu(self.root)  # Cria a barra de menu
-        menu = Menu(menu_bar, tearoff=0)  # Cria o menu suspenso
-        menu.add_command(label="Produtos")  # Opção Produtos
-        menu.add_command(label="Funcionários")  # Opção Funcionários
-        menu.add_command(label="Clientes")  # Opção Clientes
-        menu_bar.add_cascade(label="Menu", menu=menu)  # Adiciona o menu suspenso à barra
-        self.root.config(menu=menu_bar)  # Aplica o menu à janela principal
 
     # Método para criar os campos de entrada, botões e área de texto
     def criar_widgets(self):

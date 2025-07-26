@@ -19,7 +19,6 @@ class ClienteADMApp:
         self.db = Database()
 
         # Inicializa menu e interface gráfica
-        self.criar_menu()
         self.criar_widgets()
 
     def criar_widgets(self):

@@ -21,21 +21,7 @@ class FuncionarioADMApp:
 
         self.db = Database()  # Instancia o objeto de banco de dados
 
-        self.criar_menu()      # Cria o menu superior
         self.criar_widgets()   # Cria os campos e botões
-
-    # Cria a barra de menu da aplicação
-    def criar_menu(self):
-        menu_bar = Menu(self.root)  # Barra de menu
-        menu = Menu(menu_bar, tearoff=0)  # Menu suspenso
-
-        # Opções do menu (não estão ligadas a nenhuma ação ainda)
-        menu.add_command(label="Produtos")
-        menu.add_command(label="Fornecedores")
-        menu.add_command(label="Clientes")
-
-        menu_bar.add_cascade(label="Menu", menu=menu)  # Adiciona o menu suspenso à barra
-        self.root.config(menu=menu_bar)  # Aplica o menu na janela principal
 
     # Cria os campos de entrada, botões e área de texto
     def criar_widgets(self):
